@@ -65,7 +65,7 @@ def update(dt):
         y_speed = -y_speed
     if circle.position.y > 800:
         hearts.pop()
-        circle.position = Vector(100, 100)
+        circle.position = Vector(400, 400)
     if not hearts:
         x_speed = 0
         y_speed = 0
